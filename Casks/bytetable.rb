@@ -1,11 +1,11 @@
-# Homebrew Cask TEMPLATE. `0.0.35` and `e8b7466189242255977f79b75e812c8b4a243fe20c1e1ee031ce041d87f995ea` are substituted (from
+# Homebrew Cask TEMPLATE. `0.0.36` and `2248ca89e4d65a031b3030cf39af3c5e0187e1924d1d7fa5f1c5b80eccec3fb6` are substituted (from
 # the git tag and the release's SHASUMS256.txt) by the `homebrew` job in
 # .github/workflows/release.yml, which then commits the rendered cask to the
 # tap repo (Rezwanul-Haque/homebrew-tap → `Casks/bytetable.rb`). For a manual
 # render see README.md.
 cask "bytetable" do
-  version "0.0.35"
-  sha256 "e8b7466189242255977f79b75e812c8b4a243fe20c1e1ee031ce041d87f995ea"
+  version "0.0.36"
+  sha256 "2248ca89e4d65a031b3030cf39af3c5e0187e1924d1d7fa5f1c5b80eccec3fb6"
 
   url "https://github.com/Rezwanul-Haque/byteTable/releases/download/v#{version}/ByteTable_#{version}_universal.dmg",
       verified: "github.com/Rezwanul-Haque/byteTable/"
